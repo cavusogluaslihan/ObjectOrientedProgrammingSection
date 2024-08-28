@@ -11,7 +11,8 @@ public void sicaklikDonustur(double sicaklikDerece){
     }
 
     public void cevreHesabi(double kisaKenar, double uzunKenar){
-
+        double cevre = (kisaKenar+uzunKenar)*2;
+ System.out.println("Dikdörtgenin çevresi "+ cevre +"'dir.");
     }
 
 
