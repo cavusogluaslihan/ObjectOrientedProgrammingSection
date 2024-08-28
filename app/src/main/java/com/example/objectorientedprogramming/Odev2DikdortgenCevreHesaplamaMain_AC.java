@@ -2,7 +2,7 @@ package com.example.objectorientedprogramming;
 
 import java.util.Scanner;
 
-public class Odev2DikdortgenCevreHesaplama_AC {
+public class Odev2DikdortgenCevreHesaplamaMain_AC {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
 
