@@ -21,6 +21,7 @@ public class Odev2DikdortgenCevreHesaplamaMain_AC {
                 break;
             } else {
                 System.out.println("Dikdörtgende kısa kenar uzun kenara eşit ya da büyük olamaz. Lütfen geçerli bir değer giriniz.");
+
             }
         }
 

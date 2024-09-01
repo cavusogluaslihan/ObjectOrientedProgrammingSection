@@ -10,12 +10,14 @@ public class Odev3FaktoriyelHesaplaMain_AC {
         System.out.println("Hesaplamak istediğiniz sayıyı giriniz");
         int girilenSayi = scanner.nextInt();
 
-        Odevler_AC faktoriyelHesabi = new Odevler_AC();
+             Odevler_AC faktoriyelHesabi = new Odevler_AC();
+             faktoriyelHesabi.faktoriyelHesapla(girilenSayi);
+         }
 
-        faktoriyelHesabi.faktoriyelHesapla(girilenSayi);
+
 
 
 
     }
 
-}
+

@@ -2,7 +2,7 @@ package com.example.objectorientedprogramming;
 
 import java.util.Scanner;
 
-public class Odev4KelimeHarfSayisiBulmaMain_AC {
+public class Odev4KelimeHarfSirasiBulmaMain_AC {
     public static void main(String args[]){
 
         Scanner scanner = new Scanner(System.in);
@@ -12,9 +12,9 @@ public class Odev4KelimeHarfSayisiBulmaMain_AC {
         String harf = scanner.next();
 
 
-        Odevler_AC faktoriyelHesapla = new Odevler_AC();
+        Odevler_AC harfSirasiBulma = new Odevler_AC();
 
-        faktoriyelHesapla.harfSayisiBul(kelime, harf);
+        harfSirasiBulma.harfSirasisiBul(kelime, harf);
 
     }
 }
